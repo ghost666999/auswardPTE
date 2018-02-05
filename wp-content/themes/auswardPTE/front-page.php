@@ -122,7 +122,12 @@
         </a>
       </div>
     </div>
-    <div style="background:grey;">2</div>
+    <div class="announcement">
+      <div class="section-title"><p>高分学员</p></div>
+      <div class="announcement-start">
+      <?php if (function_exists (cas)) cas(); ?>
+      </div>
+    </div>
     <div class="boxes_bottom clearfix">
       <div class="item clearfix">
         <a target="_blank" href="http://toefl.zhan.com/">

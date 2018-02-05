@@ -2573,4 +2573,37 @@ margin: 20px 0;
   color:white !important;
 }
 
+.section-title {
+  width: 312px;
+  height: 40px;
+  font-size: 20px;
+  color: black;
+  border-left: 6px solid red;
+  border-radius: 8px;
+  background-color: #f15858;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+.announcement-start > div {
+  height: 290px !important;
+  padding: 0px !important;
+}
+
+#cas_Holder {
+  height: 90% !important;
+}
+
+#cas_Holder > div {
+  height: 40px !important;
+}
+
+.cas_div {
+  font-size: 15px;
+  color: black;
+  border: 1px solid #f15858;
+  border-radius: 8px;
+  padding-top: 20px !important;
+}
+
 /**/
