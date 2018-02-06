@@ -130,8 +130,15 @@
 
       <div class="head-index-right">
         <div class="head-intersection">
-          <a target="_blank" href="http://passport.zhan.com/Users/login.html?url=http%3A%2F%2Fwww.zhan.com%2F">登录</a>
-          <a target="_blank" href="http://passport.zhan.com/Users/register.html">快速注册</a>
+          <?php if(is_user_logged_in()) { ?>
+            <a href="<?php echo wp_logout_url();  ?>" class="btn btn--small  btn--dark-orange float-left btn--with-photo">
+              <span class="site-header__avatar"><?php echo get_avatar(get_current_user_id(), 60); ?></span>
+              <span class="btn__text">登出</span>
+              </a>
+              <?php } else { ?>
+                <a target="_blank" href="/login/">登录</a>
+                <a target="_blank" href="/register">快速注册</a>
+              <?php } ?>
         </div>
       </div>
     </div>

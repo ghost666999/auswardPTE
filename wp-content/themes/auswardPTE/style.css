@@ -1058,7 +1058,7 @@ p, li {
 
 /* Customize Login Screen */
 
-body.login .button-primary {
+/*body.login .button-primary {
   background-color: #F95738;
   border-color: rgb(224, 84, 56);
   text-shadow: 0 -1px 1px rgb(212, 82, 56),1px 0 1px rgb(212, 82, 56),0 1px 1px rgb(212, 82, 56),-1px 0 1px rgb(212, 82, 56);
@@ -1072,13 +1072,13 @@ body.login .button-primary:focus {
   border-color: rgb(212, 82, 56);
   text-shadow: 0 -1px 1px rgb(199, 80, 56),1px 0 1px rgb(199, 80, 56),0 1px 1px rgb(199, 80, 56),-1px 0 1px rgb(199, 80, 56);
   box-shadow: 0 1px 0 rgb(186, 78, 56);
-}
+}*/
 
 body.login {
   background-color: #FAF0CA;
 }
 
-.login h1 a {
+/*.login h1 a {
   color: #0D3B66;
   font-size: 30px;
   font-weight: 300;
@@ -1086,7 +1086,7 @@ body.login {
   width: auto;
   height: auto;
   text-indent: 0;
-}
+}*/
 
 .btn {
   display: inline-block;
@@ -2604,6 +2604,10 @@ margin: 20px 0;
   border: 1px solid #f15858;
   border-radius: 8px;
   padding-top: 20px !important;
+}
+
+.head-index-left {
+  height: 100% !important;
 }
 
 /**/
